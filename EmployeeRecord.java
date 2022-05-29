@@ -1,6 +1,6 @@
 // Simple record example that demonstrates that you do not need to set constructor,
 // getter and setter method. It also does not need hashcode() and toString() method.
-// record cannot extend other classes. The clas is marked final.
+// record cannot extend other classes. The clas is marked final.  
 
 
 

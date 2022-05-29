@@ -1,4 +1,4 @@
-
+// This class explains the use of records.
 
 
 public class RecordExample {

@@ -9,6 +9,9 @@ To create a such class you need to define its constructor, getter and setter met
 
 // This class containes an employee's data
 
+// this class actually shows what we need to do if we do not use the records.
+
+
 public class Records {
     
     // Class attributes: class attributes are nothing but the variables
@@ -77,4 +80,13 @@ public class Records {
         return "Employee [firstName=" + firstname
         + ", lastName=" + lastname + ", Id=" + Id + "]";
     }
+
+    @Override public int hashCode() {
+        return 0;
+        
+    }
+
+    // @Override public boolean equals(Object obj){
+        
+    // }
 }
